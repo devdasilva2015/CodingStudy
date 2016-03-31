@@ -38,26 +38,29 @@
 
 
 
+//------------------------------------------------------------------------
+
+
 //using System;
 //using System.Text;
 //using System.Collections.Generic;
 
-class Example
-{
-	public static void Main()
-	{
-		// Create the link list.
-		string[] words = { "the", "fox", "jumped", "over", "the", "dog" };
-		LinkedList<string> sentence = new LinkedList<string>(words);
-		Display(sentence, "The linked list values:");
-	}
-
-	private static void Display(LinkedList<string> words, string test)
-	{
-		Console.WriteLine(test);
-		foreach(string word in words)
-		{
-			Console.Write(word + " ");
-		}
-	}
-}
+//class Example
+//{
+//	public static void Main()
+//	{
+//		// Create the link list.
+//		string[] words = { "the", "fox", "jumped", "over", "the", "dog" };
+//		LinkedList<string> sentence = new LinkedList<string>(words);
+//		Display(sentence, "The linked list values:");
+//	}
+//
+//	private static void Display(LinkedList<string> words, string test)
+//	{
+//		Console.WriteLine(test);
+//		foreach(string word in words)
+//		{
+//			Console.Write(word + " ");
+//		}
+//	}
+//}
